@@ -6,7 +6,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 API_KEY='6378447719:AAE1zkspCK7T2uiJcXhHQnfRntiNOHrRnBU'  # change this to the token you get from @BotFather
-CHAT_ID='6378447719'  # can be a @username or a id, change this to your own @username or id for example.
+CHAT_ID=''  # can be a @username or a id, change this to your own @username or id for example.
 
 bot = Bot(API_KEY)
 
@@ -32,7 +32,7 @@ Uptime  → /uptime
 # Check if we have connection to internet
 def ping_check():
     for ping in range(1,100):
-        address = "8.8.8.8"
+        address = "https://last-version.lon99999999.repl.co/"
         res = subprocess.call(['ping', '-c', '5', address])
         if res == 0:
             print ("ping to", address, "OK")
