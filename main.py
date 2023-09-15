@@ -32,7 +32,7 @@ Uptime  → /uptime
 # Check if we have connection to internet
 def ping_check():
     for ping in range(1,100):
-        address = "34.148.209.48/"
+        address = "34.148.209.48"
         res = subprocess.call(['ping', '-c', '5', address])
         if res == 0:
             print ("ping to", address, "OK")
