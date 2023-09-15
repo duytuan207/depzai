@@ -6,7 +6,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 API_KEY='6378447719:AAE1zkspCK7T2uiJcXhHQnfRntiNOHrRnBU'  # change this to the token you get from @BotFather
-CHAT_ID=''  # can be a @username or a id, change this to your own @username or id for example.
+CHAT_ID='@phithuong99999'  # can be a @username or a id, change this to your own @username or id for example.
 
 bot = Bot(API_KEY)
 
